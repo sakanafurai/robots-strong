@@ -5,7 +5,8 @@
 ## About
 Stronger plugin against robots for Bludit CMS.
 
-Adds ```noindex```, ```noarchive```, ```nofollow``` tags to site head of all pages, including home page and category lists.
+Adds ```noindex```, ```noarchive```, ```nofollow```, ```noimageindex``` tags to site head of all pages, including home page and category lists.
+And also adds ```robots.txt``` that blocks access from many kind of bots. 
 
 ## License
 MIT
