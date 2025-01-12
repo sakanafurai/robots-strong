@@ -28,14 +28,20 @@ class robotsStrong extends Plugin {
 
   public function siteHead()
   {
-   return
-  '<meta name="GOOGLEBOT" content="NOINDEX,NOFOLLOW,NOARCHIVE,NOIMAGEINDEX">
-  <meta name="ROBOTS" content="NOARCHIVE,NOINDEX,NOFOLLOW,NOIMAGEINDEX">
-  <meta name="robots" content="noindex,nofollow,noarchive,noimageindex">
-  <meta name="bingbot" content="noarchive">
-  <meta name="msnbot" content="noarchive">
-  <meta name="pinterest" content="nopin">
-  <meta name="robots" content="noimageai, noai">'.PHP_EOL;
+    $metaTag =   '<meta name="GOOGLEBOT" content="NOINDEX,NOFOLLOW,NOARCHIVE,NOIMAGEINDEX">
+    <meta name="ROBOTS" content="NOARCHIVE,NOINDEX,NOFOLLOW,NOIMAGEINDEX">
+    <meta name="robots" content="noindex,nofollow,noarchive,noimageindex">'.PHP_EOL;
+
+    $additionalMetaTag = '  <meta name="bingbot" content="noarchive">
+    <meta name="msnbot" content="noarchive">
+    <meta name="pinterest" content="nopin">
+    <meta name="robots" content="noimageai, noai">'.PHP_EOL;
+
+    echo $metaTag;
+
+    if ($this->getValue('robots-mode') == 'strongest') {
+    echo $additionalMetaTag;
+    }
   }
 
 
