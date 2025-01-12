@@ -5,7 +5,8 @@ class robotsStrong extends Plugin {
   public function init()
   {
     $this->dbFields = array(
-      'robotsMode' => 'strong'
+      'robotsMode' => 'strong',
+      'userRobotsTxt' => ''
     );
   }
 
@@ -21,6 +22,10 @@ class robotsStrong extends Plugin {
     $html .= '<option value="strongest" ' . ($this->getValue('robotsMode') === 'strongest' ? 'selected' : '') . '>'. $L->get('strongest') .'</option>';
     '>Google Fonts</option>';
     $html .= '<span class="tip">'. $L->get('tip') .'</span>';
+    $html .= '</div>';
+    $html .= '<div>';
+    $html .= '<label>'. $L->get('user-defined-rules') .'</label>';
+    $html .= '<textarea name="userRobotsTxt">'.$this->getValue('userRobotsTxt').'</textarea>';
     $html .= '</div>';
 
     return $html;
@@ -127,6 +132,9 @@ class robotsStrong extends Plugin {
       echo $this->getValue('robotsTxt');
       if ($this->getValue('robotsMode') == 'strongest') {
         echo $this->getValue('additionalRobotsTxt');
+      }
+      if ($this->getValue('userRobotsTxt')) {
+        echo $this->getValue('userRobotsTxt');
       }
       exit(0);
     }
