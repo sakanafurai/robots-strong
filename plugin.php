@@ -58,7 +58,9 @@ class robotsStrong extends Plugin {
       $robotstxt = <<<EOF
       User-agent: *
       Disallow: /
+      EOF;
 
+      $additionalrobotstxt = <<<EOF
       User-agent: GPTBot
       Disallow: /
 
@@ -120,9 +122,12 @@ class robotsStrong extends Plugin {
       User-agent: ICC-Crawler
       Disallow: /
       EOF;
-      return $robotstxt;
+      return $additionalrobotstxt;
 
       echo $this->getValue('robotstxt');
+      if ($this->getValue('robots-mode') == 'strongest') {
+        echo $this->getValue('additionalrobotstxt');
+      }
       exit(0);
     }
   }
