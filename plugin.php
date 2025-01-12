@@ -20,7 +20,6 @@ class robotsStrong extends Plugin {
     $html .= '<select name="robotsMode">';
     $html .= '<option value="strong" ' . ($this->getValue('robotsMode') === 'strong' ? 'selected' : '') . '>'. $L->get('strong') .'</option>';
     $html .= '<option value="strongest" ' . ($this->getValue('robotsMode') === 'strongest' ? 'selected' : '') . '>'. $L->get('strongest') .'</option>';
-    '>Google Fonts</option>';
     $html .= '</select>';
     $html .= '<span class="tip">'. $L->get('tip') .'</span>';
     $html .= '</div>';
