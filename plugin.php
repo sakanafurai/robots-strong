@@ -26,6 +26,9 @@ class robotsStrong extends Plugin {
       }
 
       $robotstxt = <<<EOF
+      User-agent: *
+      Disallow: /
+
       User-agent: GPTBot
       Disallow: /
 
