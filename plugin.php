@@ -66,6 +66,8 @@ class robotsStrong extends Plugin {
       $robotsTxt = <<<EOF
       User-agent: *
       Disallow: /
+
+
       EOF;
 
       $additionalRobotsTxt = <<<EOF
@@ -129,6 +131,8 @@ class robotsStrong extends Plugin {
 
       User-agent: ICC-Crawler
       Disallow: /
+
+
       EOF;
 
       echo $robotsTxt;
