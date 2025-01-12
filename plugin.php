@@ -129,14 +129,13 @@ class robotsStrong extends Plugin {
       User-agent: ICC-Crawler
       Disallow: /
       EOF;
-      return $additionalRobotsTxt;
 
-      echo $this->getValue('robotsTxt');
+      echo $robotsTxt;
       if ($this->getValue('robotsMode') == 'strongest') {
-        echo $this->getValue('additionalRobotsTxt');
+        echo $additionalRobotsTxt;
       }
       if ($this->getValue('userRobotsTxt')) {
-        echo $this->getValue('userRobotsTxt');
+        echo $userRobotsTxt;
       }
       exit(0);
     }
