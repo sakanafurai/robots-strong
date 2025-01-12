@@ -2,6 +2,30 @@
 
 class robotsStrong extends Plugin {
 
+  public function init()
+  {
+    $this->dbFields = array(
+      'robots-mode' => 'strong'
+    );
+  }
+
+  public function form()
+  {
+    global $L;
+
+    $html .= '<h4 class="mt-3">Settings</h3>';
+    $html .= '<div>';
+    $html .= '<label>Mode</label>';
+    $html .= '<select name="robots-mode">';
+    $html .= '<option value="strong" ' . ($this->getValue('robots-mode') === 'strong' ? 'selected' : '') . '>'. $L->get('strong') .'</option>';
+    $html .= '<option value="strongest" ' . ($this->getValue('robots-mode') === 'strongest' ? 'selected' : '') . '>'. $L->get('strongest') .'</option>';
+    '>Google Fonts</option>';
+    $html .= '<span class="tip">'. $L->get('tip') .'</span>';
+    $html .= '</div>';
+
+    return $html;
+  }
+
   public function siteHead()
   {
    return
