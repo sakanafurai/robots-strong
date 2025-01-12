@@ -5,7 +5,7 @@ class robotsStrong extends Plugin {
   public function init()
   {
     $this->dbFields = array(
-      'robots-mode' => 'strong'
+      'robotsMode' => 'strong'
     );
   }
 
@@ -16,9 +16,9 @@ class robotsStrong extends Plugin {
     $html .= '<h4 class="mt-3">Settings</h3>';
     $html .= '<div>';
     $html .= '<label>Mode</label>';
-    $html .= '<select name="robots-mode">';
-    $html .= '<option value="strong" ' . ($this->getValue('robots-mode') === 'strong' ? 'selected' : '') . '>'. $L->get('strong') .'</option>';
-    $html .= '<option value="strongest" ' . ($this->getValue('robots-mode') === 'strongest' ? 'selected' : '') . '>'. $L->get('strongest') .'</option>';
+    $html .= '<select name="robotsMode">';
+    $html .= '<option value="strong" ' . ($this->getValue('robotsMode') === 'strong' ? 'selected' : '') . '>'. $L->get('strong') .'</option>';
+    $html .= '<option value="strongest" ' . ($this->getValue('robotsMode') === 'strongest' ? 'selected' : '') . '>'. $L->get('strongest') .'</option>';
     '>Google Fonts</option>';
     $html .= '<span class="tip">'. $L->get('tip') .'</span>';
     $html .= '</div>';
@@ -39,7 +39,7 @@ class robotsStrong extends Plugin {
 
     echo $metaTag;
 
-    if ($this->getValue('robots-mode') == 'strongest') {
+    if ($this->getValue('robotsMode') == 'strongest') {
     echo $additionalMetaTag;
     }
   }
@@ -55,12 +55,12 @@ class robotsStrong extends Plugin {
         echo 'Sitemap: '.DOMAIN_BASE.'sitemap.xml'.PHP_EOL;
       }
 
-      $robotstxt = <<<EOF
+      $robotsTxt = <<<EOF
       User-agent: *
       Disallow: /
       EOF;
 
-      $additionalrobotstxt = <<<EOF
+      $additionalRobotsTxt = <<<EOF
       User-agent: GPTBot
       Disallow: /
 
@@ -122,11 +122,11 @@ class robotsStrong extends Plugin {
       User-agent: ICC-Crawler
       Disallow: /
       EOF;
-      return $additionalrobotstxt;
+      return $additionalRobotsTxt;
 
-      echo $this->getValue('robotstxt');
-      if ($this->getValue('robots-mode') == 'strongest') {
-        echo $this->getValue('additionalrobotstxt');
+      echo $this->getValue('robotsTxt');
+      if ($this->getValue('robotsMode') == 'strongest') {
+        echo $this->getValue('additionalRobotsTxt');
       }
       exit(0);
     }
