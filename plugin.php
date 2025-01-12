@@ -135,6 +135,8 @@ class robotsStrong extends Plugin {
 
       EOF;
 
+      $userRobotsTxt = $this->getValue('userRobotsTxt');
+
       echo $robotsTxt;
       if ($this->getValue('robotsMode') == 'strongest') {
         echo $additionalRobotsTxt;
