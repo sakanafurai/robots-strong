@@ -3,5 +3,9 @@
 	{
 		"name": "Robots (Strong)",
 		"description": "Stronger plugin against robots. This is meant for websites that you don't want to be indexed or archived. Adds special HTML tags to all pages."
-	}
+	},
+	"mode": "Mode",
+	"strong": "Strong",
+	"strongest": "Strongest",
+	"user-defined-rules": "User-defined rules"
 }
