@@ -14,14 +14,12 @@ class robotsStrong extends Plugin {
   {
     global $L;
 
-    $html .= '<h4 class="mt-3">Settings</h3>';
     $html .= '<div>';
     $html .= '<label>'. $L->get('mode') .'</label>';
     $html .= '<select name="robotsMode">';
     $html .= '<option value="strong" ' . ($this->getValue('robotsMode') === 'strong' ? 'selected' : '') . '>'. $L->get('strong') .'</option>';
     $html .= '<option value="strongest" ' . ($this->getValue('robotsMode') === 'strongest' ? 'selected' : '') . '>'. $L->get('strongest') .'</option>';
     $html .= '</select>';
-    $html .= '<span class="tip">'. $L->get('tip') .'</span>';
     $html .= '</div>';
 
     $html .= '<div>';
