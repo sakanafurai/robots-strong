@@ -1,6 +1,6 @@
 # Robots (strong)
 
-[Download](https://github.com/sakanafurai/robots-strong/releases/download/1.2.0/robots-strong.zip)
+[Download](https://github.com/sakanafurai/robots-strong/releases/download/1.3.0/robots-strong.zip)
 
 ## About
 Stronger plugin against robots for Bludit CMS.
