@@ -30,7 +30,7 @@ Disallow: /
 ```
 
 ### 超強力モード
-AIクローラーに対して強力に保護します。**超強力**モードでは、robots.txtにサービス名ごとに明示的にルールを追加します。また、一部サービスのロボット向けの対策用メタタグをheadに追加します。
+検索エンジンやAIクローラーに対して強力に保護します。**超強力**モードでは、robots.txtにサービス名ごとに明示的にルールを追加します。また、一部サービスのロボット向けの対策用メタタグをheadに追加します。
 
 headに下記の内容を追加します。
 ```
@@ -43,6 +43,40 @@ headに下記の内容を追加します。
 ```
 
 以下のロボットのアクセスを許可しないルールをrobots.txtに追加します。
+
+検索エンジン:
+* bingbot
+* msnbot
+* SemrushBot
+* AhrefsBot
+* Linguee
+* proximic
+* BLEXBot
+* GrapeshotCrawler
+* DotBot
+* CriteoBot
+* Barkrowler
+* MicroAdBot
+* linkfluence
+* Cincraw
+* ICC-Crawler
+* Quantcastbot
+* contxbot
+* bidswitchbot
+* SeznamBot
+* Linespider
+* Mappy
+* MJ12bot
+* MegaIndex
+* bidswitchbot
+* SMTBot
+* ltx71
+* integralads
+* jet-bot
+* trendictionbot
+* DataForSeoBot
+
+AIボット：
 * GPTBot
 * ChatGPT-User
 * Google-Extended
@@ -70,5 +104,6 @@ MIT
 ## クレジット
 * [Robots](https://github.com/bludit/bludit/tree/v3.0/bl-plugins/robots)<br>
 BluditデフォルトのRobotsプラグイン
-* [個人サイトをAIに学習されるのを拒否しよう | 古の夢の住人](https://blog.yume-saku.site/ai-learning/) (***JA***)<br>
+* [個人サイトをAIに学習されるのを拒否しよう | 古の夢の住人](https://blog.yume-saku.site/ai-learning/) (***JA***)
+* [2023年1月更新！アクセス拒否するbot一覧！（.htaccess）](https://parudou5.com/webseisaku/113/) (***JA***)<br>
 対策用メタタグおよびrobots.txtの内容の参考にしました。

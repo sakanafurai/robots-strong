@@ -29,7 +29,7 @@ Disallow: /
 ```
 
 ### Strongest mode
-Hard protection against AI crawler. In **strongest** mode, uses explicitly defined robots.txt rules and service-specific metatags.
+Hard protection against search engines and AI crawlers. In **strongest** mode, uses explicitly defined robots.txt rules and service-specific metatags.
 
 Metatags to add:
 ```
@@ -42,6 +42,40 @@ Metatags to add:
 ```
 
 Adds robots.txt rules that disallows access to:
+
+Search engines:
+* bingbot
+* msnbot
+* SemrushBot
+* AhrefsBot
+* Linguee
+* proximic
+* BLEXBot
+* GrapeshotCrawler
+* DotBot
+* CriteoBot
+* Barkrowler
+* MicroAdBot
+* linkfluence
+* Cincraw
+* ICC-Crawler
+* Quantcastbot
+* contxbot
+* bidswitchbot
+* SeznamBot
+* Linespider
+* Mappy
+* MJ12bot
+* MegaIndex
+* bidswitchbot
+* SMTBot
+* ltx71
+* integralads
+* jet-bot
+* trendictionbot
+* DataForSeoBot
+
+AI robots:
 * GPTBot
 * ChatGPT-User
 * Google-Extended
@@ -69,5 +103,6 @@ MIT
 ## Credit
 * [Robots](https://github.com/bludit/bludit/tree/v3.0/bl-plugins/robots)<br>
 Bludit default Robots plugin
-* [個人サイトをAIに学習されるのを拒否しよう | 古の夢の住人](https://blog.yume-saku.site/ai-learning/) (***JA***)<br>
+* [個人サイトをAIに学習されるのを拒否しよう | 古の夢の住人](https://blog.yume-saku.site/ai-learning/) (***JA***)
+* [2023年1月更新！アクセス拒否するbot一覧！（.htaccess）](https://parudou5.com/webseisaku/113/) (***JA***)<br>
 Metatags and robots.txt source
