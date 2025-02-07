@@ -69,6 +69,96 @@ class robotsStrong extends Plugin {
       EOF;
 
       $additionalRobotsTxt = <<<EOF
+      User-agent: bingbot
+      Disallow: /
+
+      User-agent: msnbot
+      Disallow: /
+
+      user-agent: SemrushBot
+      Disallow: /
+
+      user-agent: AhrefsBot
+      Disallow: /
+
+      user-agent: Linguee
+      Disallow: /
+
+      user-agent: proximic
+      Disallow: /
+
+      user-agent: BLEXBot
+      Disallow: /
+
+      user-agent: GrapeshotCrawler
+      Disallow: /
+
+      user-agent: DotBot
+      Disallow: /
+
+      user-agent: CriteoBot
+      Disallow: /
+
+      user-agent: Barkrowler
+      Disallow: /
+
+      user-agent: MicroAdBot
+      Disallow: /
+
+      user-agent: linkfluence
+      Disallow: /
+
+      user-agent: Cincraw
+      Disallow: /
+
+      user-agent: ICC-Crawler
+      Disallow: /
+
+      user-agent: Quantcastbot
+      Disallow: /
+
+      user-agent: contxbot
+      Disallow: /
+
+      user-agent: bidswitchbot
+      Disallow: /
+
+      user-agent: SeznamBot
+      Disallow: /
+
+      user-agent: Linespider
+      Disallow: /
+
+      user-agent: Mappy
+      Disallow: /
+
+      user-agent: MJ12bot
+      Disallow: /
+
+      user-agent: MegaIndex
+      Disallow: /
+
+      user-agent: bidswitchbot
+      Disallow: /
+
+      user-agent: SMTBot
+      Disallow: /
+
+      user-agent: ltx71
+      Disallow: /
+
+      user-agent: integralads
+      Disallow: /
+
+      user-agent: jet-bot
+      Disallow: /
+
+      user-agent: trendictionbot
+      Disallow: /
+
+      user-agent: DataForSeoBot
+      Disallow: /
+
       User-agent: GPTBot
       Disallow: /
 
