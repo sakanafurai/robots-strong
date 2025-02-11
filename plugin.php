@@ -36,7 +36,7 @@ class robotsStrong extends Plugin {
     <meta name="ROBOTS" content="NOARCHIVE, NOINDEX, NOFOLLOW, NOIMAGEINDEX">'.PHP_EOL;
     $metaTag2 = '<meta name="robots" content="noindex, nofollow, noarchive, noimageindex">'.PHP_EOL;
 
-    $additionalMetaTag = '<meta name="robots" content="noindex, nofollow, noarchive, noimageindex, noimageai, noai">
+    $appendMetaTag = '<meta name="robots" content="noindex, nofollow, noarchive, noimageindex, noimageai, noai">
     <meta name="bingbot" content="noarchive">
     <meta name="msnbot" content="noarchive">
     <meta name="pinterest" content="nopin">'.PHP_EOL;
@@ -46,7 +46,7 @@ class robotsStrong extends Plugin {
     if ($this->getValue('robotsMode') == 'strong') {
       echo $metaTag2;
     } elseif ($this->getValue('robotsMode') == 'strongest') {
-      echo $additionalMetaTag;
+      echo $appendMetaTag;
     }
   }
 
@@ -68,7 +68,7 @@ class robotsStrong extends Plugin {
 
       EOF;
 
-      $additionalRobotsTxt = <<<EOF
+      $appendRobotsTxt = <<<EOF
       User-agent: bingbot
       Disallow: /
 
@@ -223,7 +223,7 @@ class robotsStrong extends Plugin {
 
       echo $robotsTxt;
       if ($this->getValue('robotsMode') == 'strongest') {
-        echo $additionalRobotsTxt;
+        echo $appendRobotsTxt;
       }
       if ($this->getValue('userRobotsTxt')) {
         echo $userRobotsTxt;
