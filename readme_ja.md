@@ -96,7 +96,6 @@ AIボット：
 * cohere-ai
 * AI2Bot
 * Bytespider
-* ICC-Crawler
 
 ## ライセンス
 MIT

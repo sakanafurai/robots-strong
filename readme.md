@@ -95,7 +95,6 @@ AI robots:
 * cohere-ai
 * AI2Bot
 * Bytespider
-* ICC-Crawler
 
 ## License
 MIT
