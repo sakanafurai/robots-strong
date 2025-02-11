@@ -217,10 +217,6 @@ class robotsStrong extends Plugin {
       User-agent: Bytespider
       Disallow: /
 
-      User-agent: ICC-Crawler
-      Disallow: /
-
-
       EOF;
 
       $userRobotsTxt = $this->getValue('userRobotsTxt');
