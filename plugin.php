@@ -156,6 +156,30 @@ class robotsStrong extends Plugin {
       user-agent: Quantcastbot
       Disallow: /
 
+      User-agent: AI2Bot
+      Disallow: /
+
+      User-agent: amazon-kendra
+      Disallow: /
+
+      User-agent: Applebot-Extended
+      Disallow: /
+
+      User-agent: Bytespider
+      Disallow: /
+
+      User-agent: CCBot
+      Disallow: /
+
+      User-agent: cohere-ai
+      Disallow: /
+
+      User-agent: ClaudeBot
+      Disallow: /
+
+      User-agent: Diffbot
+      Disallow: /
+
       User-agent: GPTBot
       Disallow: /
 
@@ -174,29 +198,11 @@ class robotsStrong extends Plugin {
       User-agent: GoogleOther-Video
       Disallow: /
 
-      User-agent: CCBot
-      Disallow: /
-
-      User-agent: ClaudeBot
-      Disallow: /
-
-      User-agent: PerplexityBot
-      Disallow: /
-
-      User-agent: Applebot-Extended
-      Disallow: /
-
-      User-agent: OAI-SearchBot
-      Disallow: /
-
-      User-agent: amazon-kendra
+      User-agent: GPTBot
       Disallow: /
 
       Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)
       User-Agent: ImagesiftBot
-      Disallow: /
-
-      User-agent: Diffbot
       Disallow: /
 
       User-agent: meta-externalagent
@@ -205,13 +211,10 @@ class robotsStrong extends Plugin {
       User-agent: meta-externalfetcher
       Disallow: /
 
-      User-agent: cohere-ai
+      User-agent: OAI-SearchBot
       Disallow: /
 
-      User-agent: AI2Bot
-      Disallow: /
-
-      User-agent: Bytespider
+      User-agent: PerplexityBot
       Disallow: /
 
       EOF;
