@@ -62,7 +62,7 @@ class robotsStrong extends Plugin {
       }
 
       $robotsTxt = <<<EOF
-      User-agent: *
+      user-agent: *
       Disallow: /
 
 
@@ -75,19 +75,19 @@ class robotsStrong extends Plugin {
       user-agent: AhrefsBot
       Disallow: /
 
-      User-agent: AI2Bot
+      user-agent: AI2Bot
       Disallow: /
 
       user-agent: Amazonbot
       Disallow: /
 
-      User-agent: amazon-kendra
+      user-agent: amazon-kendra
       Disallow: /
 
       user-agent: Applebot
       Disallow: /
 
-      User-agent: Applebot-Extended
+      user-agent: Applebot-Extended
       Disallow: /
 
       user-agent: AwarioBot
@@ -108,7 +108,7 @@ class robotsStrong extends Plugin {
       user-agent: bidswitchbot
       Disallow: /
 
-      User-agent: bingbot
+      user-agent: bingbot
       Disallow: /
 
       user-agent: BLEXBot
@@ -120,19 +120,19 @@ class robotsStrong extends Plugin {
       user-agent: BUbiNG
       Disallow: /
 
-      User-agent: Bytespider
+      user-agent: Bytespider
       Disallow: /
 
-      User-agent: CCBot
+      user-agent: CCBot
       Disallow: /
 
-      User-agent: ChatGPT-User
+      user-agent: ChatGPT-User
       Disallow: /
 
       user-agent: Cincraw
       Disallow: /
 
-      User-agent: ClaudeBot
+      user-agent: ClaudeBot
       Disallow: /
 
       user-agent: coccocbot
@@ -144,7 +144,7 @@ class robotsStrong extends Plugin {
       user-agent: CognitiveSEO Site Explorer
       Disallow: /
 
-      User-agent: cohere-ai
+      user-agent: cohere-ai
       Disallow: /
 
       user-agent: ContentKing
@@ -174,7 +174,7 @@ class robotsStrong extends Plugin {
       user-agent: Dexi.io
       Disallow: /
 
-      User-agent: Diffbot
+      user-agent: Diffbot
       Disallow: /
 
       user-agent: Domains Project
@@ -213,22 +213,22 @@ class robotsStrong extends Plugin {
       user-agent: Gigabot
       Disallow: /
 
-      User-agent: Google-Extended
+      user-agent: Google-Extended
       Disallow: /
 
       user-agent: Google-InspectionTool
       Disallow: /
 
-      User-agent: GoogleOther
+      user-agent: GoogleOther
       Disallow: /
 
-      User-agent: GoogleOther-Image
+      user-agent: GoogleOther-Image
       Disallow: /
 
-      User-agent: GoogleOther-Video
+      user-agent: GoogleOther-Video
       Disallow: /
 
-      User-agent: GPTBot
+      user-agent: GPTBot
       Disallow: /
 
       user-agent: GrapeshotCrawler
@@ -304,10 +304,10 @@ class robotsStrong extends Plugin {
       user-agent: MegaIndex.ru
       Disallow: /
 
-      User-agent: meta-externalagent
+      user-agent: meta-externalagent
       Disallow: /
 
-      User-agent: meta-externalfetcher
+      user-agent: meta-externalfetcher
       Disallow: /
 
       user-agent: MicroAdBot
@@ -316,7 +316,7 @@ class robotsStrong extends Plugin {
       user-agent: MJ12bot
       Disallow: /
 
-      User-agent: msnbot
+      user-agent: msnbot
       Disallow: /
 
       user-agent: Neevabot
@@ -328,7 +328,7 @@ class robotsStrong extends Plugin {
       user-agent: Netpeak Spider
       Disallow: /
 
-      User-agent: OAI-SearchBot
+      user-agent: OAI-SearchBot
       Disallow: /
 
       user-agent: Octoparse
@@ -343,7 +343,7 @@ class robotsStrong extends Plugin {
       user-agent: ParseHub
       Disallow: /
 
-      User-agent: PerplexityBot
+      user-agent: PerplexityBot
       Disallow: /
 
       user-agent: petalbot
