@@ -42,60 +42,8 @@ headに下記の内容を追加します。
 <meta name="pinterest" content="nopin">
 ```
 
-以下のロボットのアクセスを許可しないルールをrobots.txtに追加します。
-
-検索エンジン:
-* bingbot
-* msnbot
-* SemrushBot
-* AhrefsBot
-* Linguee
-* proximic
-* BLEXBot
-* GrapeshotCrawler
-* DotBot
-* CriteoBot
-* Barkrowler
-* MicroAdBot
-* linkfluence
-* Cincraw
-* ICC-Crawler
-* Quantcastbot
-* contxbot
-* bidswitchbot
-* SeznamBot
-* Linespider
-* Mappy
-* MJ12bot
-* MegaIndex
-* bidswitchbot
-* SMTBot
-* ltx71
-* integralads
-* jet-bot
-* trendictionbot
-* DataForSeoBot
-
-AIボット：
-* GPTBot
-* ChatGPT-User
-* Google-Extended
-* GoogleOther
-* GoogleOther-Image
-* GoogleOther-Video
-* CCBot
-* ClaudeBot
-* PerplexityBot
-* Applebot-Extended
-* OAI-SearchBot
-* amazon-kendra
-* ImagesiftBot
-* Diffbot
-* meta-externalagent
-* meta-externalfetcher
-* cohere-ai
-* AI2Bot
-* Bytespider
+ロボットのアクセスを許可しないルールをrobots.txtに追加します。
+現在、149のボットがルールに登録されています。
 
 ## ライセンス
 MIT

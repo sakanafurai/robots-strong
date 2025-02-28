@@ -41,60 +41,8 @@ Metatags to add:
 <meta name="pinterest" content="nopin">
 ```
 
-Adds robots.txt rules that disallows access to:
-
-Search engines:
-* bingbot
-* msnbot
-* SemrushBot
-* AhrefsBot
-* Linguee
-* proximic
-* BLEXBot
-* GrapeshotCrawler
-* DotBot
-* CriteoBot
-* Barkrowler
-* MicroAdBot
-* linkfluence
-* Cincraw
-* ICC-Crawler
-* Quantcastbot
-* contxbot
-* bidswitchbot
-* SeznamBot
-* Linespider
-* Mappy
-* MJ12bot
-* MegaIndex
-* bidswitchbot
-* SMTBot
-* ltx71
-* integralads
-* jet-bot
-* trendictionbot
-* DataForSeoBot
-
-AI robots:
-* GPTBot
-* ChatGPT-User
-* Google-Extended
-* GoogleOther
-* GoogleOther-Image
-* GoogleOther-Video
-* CCBot
-* ClaudeBot
-* PerplexityBot
-* Applebot-Extended
-* OAI-SearchBot
-* amazon-kendra
-* ImagesiftBot
-* Diffbot
-* meta-externalagent
-* meta-externalfetcher
-* cohere-ai
-* AI2Bot
-* Bytespider
+Adds rules to robots.txt that disallows access bots.
+This plugin contains 149 rules.
 
 ## License
 MIT
