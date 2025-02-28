@@ -51,5 +51,6 @@ MIT
 * [Robots](https://github.com/bludit/bludit/tree/v3.0/bl-plugins/robots)<br>
 Bludit default Robots plugin
 * [個人サイトをAIに学習されるのを拒否しよう | 古の夢の住人](https://blog.yume-saku.site/ai-learning/) (***JA***)
-* [2023年1月更新！アクセス拒否するbot一覧！（.htaccess）](https://parudou5.com/webseisaku/113/) (***JA***)<br>
-Metatags and robots.txt source
+* [2023年1月更新！アクセス拒否するbot一覧！（.htaccess）](https://parudou5.com/webseisaku/113/) (***JA***)
+* [検索避けについて](https://con.jp/seo/borocchi/noseo.html) (***JA***)<br>
+Metatags and robots.txt rules source
