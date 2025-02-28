@@ -69,82 +69,40 @@ class robotsStrong extends Plugin {
       EOF;
 
       $appendRobotsTxt = <<<EOF
-      User-agent: bingbot
-      Disallow: /
-
-      User-agent: msnbot
-      Disallow: /
-
-      user-agent: SemrushBot
-      Disallow: /
-
       user-agent: AhrefsBot
-      Disallow: /
-
-      user-agent: Linguee
-      Disallow: /
-
-      user-agent: proximic
-      Disallow: /
-
-      user-agent: BLEXBot
-      Disallow: /
-
-      user-agent: GrapeshotCrawler
-      Disallow: /
-
-      user-agent: DotBot
-      Disallow: /
-
-      user-agent: CriteoBot
       Disallow: /
 
       user-agent: Barkrowler
       Disallow: /
 
-      user-agent: MicroAdBot
+      user-agent: bidswitchbot
       Disallow: /
 
-      user-agent: linkfluence
+      User-agent: bingbot
+      Disallow: /
+
+      user-agent: BLEXBot
       Disallow: /
 
       user-agent: Cincraw
       Disallow: /
 
-      user-agent: ICC-Crawler
-      Disallow: /
-
-      user-agent: Quantcastbot
-      Disallow: /
-
       user-agent: contxbot
       Disallow: /
 
-      user-agent: bidswitchbot
+      user-agent: CriteoBot
       Disallow: /
 
-      user-agent: SeznamBot
+      user-agent: DataForSeoBot
       Disallow: /
 
-      user-agent: Linespider
+      user-agent: DotBot
       Disallow: /
 
-      user-agent: Mappy
+      user-agent: GrapeshotCrawler
       Disallow: /
 
-      user-agent: MJ12bot
-      Disallow: /
-
-      user-agent: MegaIndex
-      Disallow: /
-
-      user-agent: bidswitchbot
-      Disallow: /
-
-      user-agent: SMTBot
-      Disallow: /
-
-      user-agent: ltx71
+      user-agent: ICC-Crawler
       Disallow: /
 
       user-agent: integralads
@@ -153,10 +111,49 @@ class robotsStrong extends Plugin {
       user-agent: jet-bot
       Disallow: /
 
+      user-agent: Linespider
+      Disallow: /
+
+      user-agent: Linguee
+      Disallow: /
+
+      user-agent: linkfluence
+      Disallow: /
+
+      user-agent: ltx71
+      Disallow: /
+
+      user-agent: MicroAdBot
+      Disallow: /
+
+      user-agent: Mappy
+      Disallow: /
+
+      user-agent: MegaIndex
+      Disallow: /
+
+      user-agent: MJ12bot
+      Disallow: /
+
+      User-agent: msnbot
+      Disallow: /
+
+      user-agent: proximic
+      Disallow: /
+
+      user-agent: SemrushBot
+      Disallow: /
+
+      user-agent: SeznamBot
+      Disallow: /
+
+      user-agent: SMTBot
+      Disallow: /
+
       user-agent: trendictionbot
       Disallow: /
 
-      user-agent: DataForSeoBot
+      user-agent: Quantcastbot
       Disallow: /
 
       User-agent: GPTBot
