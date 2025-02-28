@@ -169,9 +169,6 @@ class robotsStrong extends Plugin {
       user-agent: ltx71
       Disallow: /
 
-      user-agent: MicroAdBot
-      Disallow: /
-
       user-agent: Mappy
       Disallow: /
 
@@ -182,6 +179,9 @@ class robotsStrong extends Plugin {
       Disallow: /
 
       User-agent: meta-externalfetcher
+      Disallow: /
+
+      user-agent: MicroAdBot
       Disallow: /
 
       user-agent: MJ12bot
@@ -199,6 +199,9 @@ class robotsStrong extends Plugin {
       user-agent: proximic
       Disallow: /
 
+      user-agent: Quantcastbot
+      Disallow: /
+
       user-agent: SemrushBot
       Disallow: /
 
@@ -209,9 +212,6 @@ class robotsStrong extends Plugin {
       Disallow: /
 
       user-agent: trendictionbot
-      Disallow: /
-
-      user-agent: Quantcastbot
       Disallow: /
 
       EOF;
