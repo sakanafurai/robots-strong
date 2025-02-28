@@ -72,6 +72,15 @@ class robotsStrong extends Plugin {
       user-agent: AhrefsBot
       Disallow: /
 
+      User-agent: AI2Bot
+      Disallow: /
+
+      User-agent: amazon-kendra
+      Disallow: /
+
+      User-agent: Applebot-Extended
+      Disallow: /
+
       user-agent: Barkrowler
       Disallow: /
 
@@ -81,10 +90,25 @@ class robotsStrong extends Plugin {
       User-agent: bingbot
       Disallow: /
 
+      User-agent: Bytespider
+      Disallow: /
+
       user-agent: BLEXBot
       Disallow: /
 
+      User-agent: CCBot
+      Disallow: /
+
+      User-agent: ChatGPT-User
+      Disallow: /
+
       user-agent: Cincraw
+      Disallow: /
+
+      User-agent: ClaudeBot
+      Disallow: /
+
+      User-agent: cohere-ai
       Disallow: /
 
       user-agent: contxbot
@@ -96,13 +120,35 @@ class robotsStrong extends Plugin {
       user-agent: DataForSeoBot
       Disallow: /
 
+      User-agent: Diffbot
+      Disallow: /
+
       user-agent: DotBot
+      Disallow: /
+
+      User-agent: Google-Extended
+      Disallow: /
+
+      User-agent: GoogleOther
+      Disallow: /
+
+      User-agent: GoogleOther-Image
+      Disallow: /
+
+      User-agent: GoogleOther-Video
+      Disallow: /
+
+      User-agent: GPTBot
       Disallow: /
 
       user-agent: GrapeshotCrawler
       Disallow: /
 
       user-agent: ICC-Crawler
+      Disallow: /
+
+      Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)
+      User-Agent: ImagesiftBot
       Disallow: /
 
       user-agent: integralads
@@ -132,10 +178,22 @@ class robotsStrong extends Plugin {
       user-agent: MegaIndex
       Disallow: /
 
+      User-agent: meta-externalagent
+      Disallow: /
+
+      User-agent: meta-externalfetcher
+      Disallow: /
+
       user-agent: MJ12bot
       Disallow: /
 
       User-agent: msnbot
+      Disallow: /
+
+      User-agent: OAI-SearchBot
+      Disallow: /
+
+      User-agent: PerplexityBot
       Disallow: /
 
       user-agent: proximic
@@ -154,67 +212,6 @@ class robotsStrong extends Plugin {
       Disallow: /
 
       user-agent: Quantcastbot
-      Disallow: /
-
-      User-agent: AI2Bot
-      Disallow: /
-
-      User-agent: amazon-kendra
-      Disallow: /
-
-      User-agent: Applebot-Extended
-      Disallow: /
-
-      User-agent: Bytespider
-      Disallow: /
-
-      User-agent: CCBot
-      Disallow: /
-
-      User-agent: cohere-ai
-      Disallow: /
-
-      User-agent: ClaudeBot
-      Disallow: /
-
-      User-agent: Diffbot
-      Disallow: /
-
-      User-agent: GPTBot
-      Disallow: /
-
-      User-agent: ChatGPT-User
-      Disallow: /
-
-      User-agent: Google-Extended
-      Disallow: /
-
-      User-agent: GoogleOther
-      Disallow: /
-
-      User-agent: GoogleOther-Image
-      Disallow: /
-
-      User-agent: GoogleOther-Video
-      Disallow: /
-
-      User-agent: GPTBot
-      Disallow: /
-
-      Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)
-      User-Agent: ImagesiftBot
-      Disallow: /
-
-      User-agent: meta-externalagent
-      Disallow: /
-
-      User-agent: meta-externalfetcher
-      Disallow: /
-
-      User-agent: OAI-SearchBot
-      Disallow: /
-
-      User-agent: PerplexityBot
       Disallow: /
 
       EOF;
