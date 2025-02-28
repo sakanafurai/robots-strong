@@ -1,6 +1,6 @@
 # Robots (強力)
 
-[ダウンロード](https://github.com/sakanafurai/robots-strong/releases/download/1.3.1/robots-strong.zip)
+[ダウンロード](https://github.com/sakanafurai/robots-strong/releases/download/1.4.0/robots-strong.zip)
 
 ## 概要
 Bludit CMS用のさらに強力なロボット対策プラグインです。
